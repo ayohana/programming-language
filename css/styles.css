@@ -2,13 +2,18 @@ li {
   margin-bottom: 1.5rem;
 }
 
+#avatar {
+  max-width: 250px;
+}
+
 img {
   max-width: 100%;
 }
 
-#avatar {
-  max-width: 250px;
+.backToTop {
+  max-width: 50px;
 }
+
 
 #resultJS,
 #resultCsharp,
