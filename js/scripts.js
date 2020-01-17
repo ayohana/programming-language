@@ -13,24 +13,29 @@ $(document).ready(function() {
 
     if (score >= 40) {
       $("#quizResult").text("Javascript");
+      $("#resultInvalid").hide();
       $("#resultRuby").hide();
       $("#resultCsharp").hide();
       $("#resultJS").show();
     } else if (score >= 25 && score < 40) {
       $("#quizResult").text("Ruby");
+      $("#resultInvalid").hide();
       $("#resultRuby").show();
       $("#resultCsharp").hide();
       $("#resultJS").hide();
     } else if (score < 25) {
       $("#quizResult").text("C#");
+      $("#resultInvalid").hide();
       $("#resultRuby").hide();
       $("#resultCsharp").show();
       $("#resultJS").hide();
     } else {
-      $("#quizResult").text("...");
-      alert("Invalid entry. Please retry!");
+      $("#quizResult").text("who-knows-which");
+      $("#resultInvalid").show();
+      $("#resultRuby").hide();
+      $("#resultCsharp").hide();
+      $("#resultJS").hide();
     }
-
 
   });
 });

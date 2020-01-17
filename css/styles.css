@@ -9,6 +9,7 @@ img {
 
 #resultJS,
 #resultCsharp,
-#resultRuby {
+#resultRuby,
+#resultInvalid {
   display: none;
 }
