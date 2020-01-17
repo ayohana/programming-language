@@ -6,13 +6,15 @@
 
 ## Description
 
-This application is for those of you who are interested in learning coding. It will ask future students a series of questions and provide you with suggestions on which programming language you should learn first based on your answers. Have fun! 
+This webpage is for coding newbies. It will ask you a series of questions and provide you with a suggestion on which programming language you should learn based on your answers. _Have fun!_ 
 
 ## Setup/Installation Requirements
 
-* Clone this repository.
+* Clone this [repository](https://github.com/ayohana/programming-language.git/)
 * Open index.html in your preferred web browser.
 * Enjoy!
+
+Or simply click on this [link](https://ayohana.github.io/programming-language/) to open the webpage.
 
 ## Known Bugs
 
@@ -26,9 +28,10 @@ For questions, feedback and concerns, please email adela.yohana@gmail.com.
 
 HTML
 CSS
-Bootstrap
+StartBootstrap Theme
 JavaScript
 jQuery
+Markdown
 
 ### License
 
