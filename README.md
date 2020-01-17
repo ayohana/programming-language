@@ -31,6 +31,7 @@ Feel free to provide feedback via email adela.yohana@gmail.com.
 - Bootstrap
 - JavaScript
 - jQuery
+- [Google Fonts](https://fonts.google.com/)
 - Markdown
 
 ### License
