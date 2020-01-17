@@ -8,18 +8,22 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/scripts.js"></script>
   </head>
+
   <body>
+    <!-- Top Container -->
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
         <img src="img/avatar.svg" id="avatar" alt="An avatar image" title="*chomp chomp*">
         <h1>A Beginner's Guide</h1>
+        <hr>
         <p>Which programming language suits you the best? Let's find out!</p>
+        <p><a href="#quiz">Take the quiz</a> | <a href="#languages">About programming languages</a></p>
       </div>
     </div>
 
     <!-- Quiz Section -->
     <div class="container p-4">
-      <h2>Take the quiz!</h2>
+      <h2 id="quiz">The Quiz</h2>
       <hr>
       <form id="questionsList">
         <ol>
@@ -145,7 +149,7 @@
 
     <!-- Languages Section -->
     <div class="container p-4">
-      <h2>Languages</h2>
+      <h2 id="languages">Languages</h2>
       <hr>
       <div class="card-deck">
         <div class="card text-white bg-dark mb-3">

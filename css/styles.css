@@ -6,6 +6,10 @@ img {
   max-width: 100%;
 }
 
+#avatar {
+  max-width: 250px;
+}
+
 #resultJS,
 #resultCsharp,
 #resultRuby,
