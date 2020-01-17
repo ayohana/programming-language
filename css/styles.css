@@ -3,8 +3,7 @@ li {
 }
 
 img {
-  max-width: 80%;
-  margin: auto;
+  max-width: 100%;
 }
 
 #resultJS,
