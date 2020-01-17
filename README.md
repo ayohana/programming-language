@@ -28,7 +28,7 @@ For questions, feedback and concerns, please email adela.yohana@gmail.com.
 
 HTML
 CSS
-StartBootstrap Theme
+Bootstrap
 JavaScript
 jQuery
 Markdown
