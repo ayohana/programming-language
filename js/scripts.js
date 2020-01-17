@@ -7,16 +7,28 @@ $(document).ready(function() {
     var answer4 = parseInt($("input:radio[name=question4radios]:checked").val());
     var answer5 = parseInt($("input:radio[name=question5radios]:checked").val());
     var score = answer1 + answer2 + answer3 + answer4 + answer5;
-    alert(score);
+    
+    // Activate code below to check the total score:
+    // alert(score);
 
     if (score >= 40) {
-      alert("JS");
+      $("#quizResult").text("Javascript");
+      $("#resultRuby").hide();
+      $("#resultCsharp").hide();
+      $("#resultJS").show();
     } else if (score >= 25 && score < 40) {
-      alert("Ruby");
-    } else if (score <= 15) {
-      alert("C#");
+      $("#quizResult").text("Ruby");
+      $("#resultRuby").show();
+      $("#resultCsharp").hide();
+      $("#resultJS").hide();
+    } else if (score < 25) {
+      $("#quizResult").text("C#");
+      $("#resultRuby").hide();
+      $("#resultCsharp").show();
+      $("#resultJS").hide();
     } else {
-      alert("please retry");
+      $("#quizResult").text("...");
+      alert("Invalid entry. Please retry!");
     }
 
 
