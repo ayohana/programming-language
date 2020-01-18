@@ -36,17 +36,4 @@ $(document).ready(function() {
       $("#resultJS").hide();
     }
   });
-
-
-  	
-  // $( ".backToTop" ).click(function() {
-  //   $("#top").delay( 800 );
-  // });
-  
-  // $(".backToTop").click(function() {
-  //   $("#top").fadeOut("slow", function() {
-
-  //   });
-  // })
-  
 });

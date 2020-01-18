@@ -2,14 +2,14 @@ html {
   scroll-behavior: smooth;
 }
 
-#top {
-  background-color: rgb(62, 68, 68);
-  color: white;
-}
-
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: rgb(29, 28, 28);
+  color: white;
+}
+
+#top {
+  background-color: rgb(62, 68, 68);
   color: white;
 }
 
