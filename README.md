@@ -6,7 +6,7 @@
 
 ## Description
 
-**This webpage is for users who are new to coding.** It will ask the user a series of questions and provide a recommendation which programming language they should learn first based on their answers. The information provided is based on [Mikke Goes Coding](https://mikkegoes.com/14-programming-languages-explained/) website. Overall, this webpage is to practise HTML form input types, JavaScript branching logic, jQuery event handlers and Bootstrap modals.
+**This webpage is for users who are new to coding.** It will ask the user a series of questions and provide a recommendation which programming language they should learn first based on their answers. Overall, this webpage is to practice HTML form input types, JavaScript branching logic, jQuery event handlers and Bootstrap modals. The information provided is based on [Mikke Goes Coding](https://mikkegoes.com/14-programming-languages-explained/).
 
 ## Setup/Installation Requirements
 
