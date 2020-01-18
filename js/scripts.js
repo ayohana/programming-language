@@ -7,7 +7,6 @@ $(document).ready(function() {
     var answer4 = parseInt($("input:radio[name=question4radios]:checked").val());
     var answer5 = parseInt($("input:radio[name=question5radios]:checked").val());
     var score = answer1 + answer2 + answer3 + answer4 + answer5;
-    
     // Activate code below to check the total score:
     // alert(score);
 
@@ -36,6 +35,18 @@ $(document).ready(function() {
       $("#resultCsharp").hide();
       $("#resultJS").hide();
     }
-
   });
+
+
+  	
+  // $( ".backToTop" ).click(function() {
+  //   $("#top").delay( 800 );
+  // });
+  
+  // $(".backToTop").click(function() {
+  //   $("#top").fadeOut("slow", function() {
+
+  //   });
+  // })
+  
 });
